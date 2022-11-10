@@ -18,5 +18,6 @@
     fwrite($log,$mpesaResponce);
     fclose($log);
 
+
     echo $responce;
  ?>
