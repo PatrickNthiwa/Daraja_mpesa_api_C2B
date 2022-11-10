@@ -9,8 +9,8 @@ curl_setopt($curl,CURLOPT_HTTPHEADER,array("Content-Type:application/json",'Auth
 $curl_post_data = array(
     "ShortCode" => "60502",
     "ResponseType"=> "Confirmed",
-    "ConfirmationURL"=> "[confirmation URL]",
-    "ValidationURL"=>"[validation URL]"
+    "ConfirmationURL"=> "https://whispering-ridge-40373.herokuapp.com/confirmaton_url.php",
+    "ValidationURL"=>"https://whispering-ridge-40373.herokuapp.com/validation.php"
 
 );
 
