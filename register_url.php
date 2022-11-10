@@ -2,7 +2,7 @@
 $consumerKey='x4lgMO695XnAGH9zclFxS6EDbMdSXr8G';
 $consumerSecret='JEXDLHu5pYeG3LxF';
 
-$headers=['Content-Type:application/json;  charset-utf8'];
+$headers=['Content-Type:application/json; charset-utf8'];
 
 $url='https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
@@ -12,7 +12,6 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
 
 curl_setopt($curl, CURLOPT_HEADER, FALSE);
 
-//$credentials = base64_encode($consumer_key . ':' . $consumer_secret);
 curl_setopt($curl, CURLOPT_USERPWD,$consumerKey .':'.$consumerSecret);
 
 $result=curl_exec($curl);
@@ -21,11 +20,11 @@ $result=json_decode($result);
 
 $access_token=$result->access_token;
 
-echo '$access_token';
+echo $access_token;
 
 $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
 
-$curl  = curl_init($url);
+$curl  = curl_init();
 curl_setopt($curl,CURLOPT_URL,$url);
 curl_setopt($curl,CURLOPT_HTTPHEADER,array("Content-Type:application/json",'Authorization:Bearer '.$access_token));
 
