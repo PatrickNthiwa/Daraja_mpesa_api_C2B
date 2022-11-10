@@ -2,11 +2,11 @@
 $consumerKey='x4lgMO695XnAGH9zclFxS6EDbMdSXr8G';
 $consumerSecret='JEXDLHu5pYeG3LxF';
 
-$headers=['Content-Type:application/json; charset-utf8'];
+//$headers=['Content-Type:application/json; charset-utf8'];
 
 $url='https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
-$curl = curl_init($url);
+$curl = curl_init();
 curl_setopt($curl,CURLOPT_URL,$url);
 
 $credentials = base64_encode($consumer_key . ':' . $consumer_secret);
