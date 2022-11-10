@@ -17,4 +17,6 @@
     $log =  fopen($logfile,"a");
     fwrite($log,$mpesaResponce);
     fclose($log);
+
+    echo $responce;
  ?>

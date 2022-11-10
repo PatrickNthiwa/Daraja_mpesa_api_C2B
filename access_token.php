@@ -23,4 +23,5 @@ $access_token=$result->access_token;
 
 echo '$access_token';
 
-curl_close($curl);
+//curl_close($curl);
+?>
