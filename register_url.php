@@ -25,8 +25,7 @@ echo '$access_token';
 
 $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
 
-
-$curl  = curl_init();
+$curl  = curl_init($url);
 curl_setopt($curl,CURLOPT_URL,$url);
 curl_setopt($curl,CURLOPT_HTTPHEADER,array("Content-Type:application/json",'Authorization:Bearer '.$access_token));
 
