@@ -10,7 +10,7 @@
     $mpesaResponce = file_get_contents('php://input');
 
     //log the responce
-    $logfile= "M-PESAValidationResponce.txt";
+    $logfile= "ValidationResponce.txt";
     $jsonMpesaresponce = json_decode($mpesaResponce,true);
 
     //write to file
