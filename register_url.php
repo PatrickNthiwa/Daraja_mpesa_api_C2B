@@ -31,6 +31,7 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, [
 ]);
 $curl_post_data = array(
     "ShortCode" => "600997",
+    "amount"=>"1",
     "ResponseType"=> "Completed",
     "ConfirmationURL"=> "https://whispering-ridge-40373.herokuapp.com/confirmation_url.php",
     "ValidationURL"=>"https://whispering-ridge-40373.herokuapp.com/validation.php"
