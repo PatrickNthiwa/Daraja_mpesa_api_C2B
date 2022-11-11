@@ -2,7 +2,7 @@
 $consumerKey = 'x4lgMO695XnAGH9zclFxS6EDbMdSXr8G';
 $consumerSecret = 'JEXDLHu5pYeG3LxF';
 
-$headers = ['Content-Type:application/json;charset-utf8'];
+$headers = ['Content-Type:application/json; charset-utf8'];
 $url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
 $curl = curl_init($url);
@@ -29,7 +29,7 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Authorization: Bearer '.$access_token
 ]);
 $curl_post_data = array(
-    "ShortCode" => "600987",
+    "ShortCode" => "600992",
     "ResponseType"=> "Completed",
     "ConfirmationURL"=> "https://whispering-ridge-40373.herokuapp.com/confirmation_url.php",
     "ValidationURL"=>"https://whispering-ridge-40373.herokuapp.com/validation.php"
