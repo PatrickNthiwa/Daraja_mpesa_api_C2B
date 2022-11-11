@@ -5,13 +5,16 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, [
     'Content-Type: application/json'
 ]);
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, array([
+
+
+$curl_post_data = array(
     "ShortCode" => "600996",
     "CommandID"=> "CustomerPayBillOnline",
     "amount"=> "1",
     "MSISDN"=> "254705912645",
-    "BillRefNumber"=> "wambua",
-]));
+    "BillRefNumber"=> "wambua"
+);
+curl_setopt($ch, CURLOPT_POSTFIELDS,$curl_post_data);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $response     = curl_exec($ch);
 curl_close($ch);
