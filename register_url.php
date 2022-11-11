@@ -24,14 +24,12 @@ $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
 
 $curl  = curl_init($url);
 curl_setopt($curl,CURLOPT_URL,$url);
-//curl_setopt($curl,CURLOPT_HTTPHEADER,array("Content-Type: application/json",'Authorization:Bearer '.$access_token));
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Content-Type: application/json',
     'Authorization: Bearer '.$access_token
 ]);
 $curl_post_data = array(
-    "ShortCode" => "600997",
-    "amount"=>"1",
+    "ShortCode" => "600987",
     "ResponseType"=> "Completed",
     "ConfirmationURL"=> "https://whispering-ridge-40373.herokuapp.com/confirmation_url.php",
     "ValidationURL"=>"https://whispering-ridge-40373.herokuapp.com/validation.php"
