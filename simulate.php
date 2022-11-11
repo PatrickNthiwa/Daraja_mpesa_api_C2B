@@ -1,18 +1,29 @@
-<?
-$ch = curl_init('https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate');
-curl_setopt($ch, CURLOPT_HTTPHEADER, [
+<?php
+$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
+
+$curl = curl_init();
+
+curl_setopt($curl,CURLOPT_URL,$url);
+
+curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Authorization: Bearer vfdRzEU1ufAEP7YgoS9nBGgDnSC6',
     'Content-Type: application/json'
 ]);
-curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, [
-    "ShortCode"=> 600992,
+$curl_post_data = array(
+    "ShortCode"=> "600998",
     "CommandID"=> "CustomerPayBillOnline",
-    "amount"=> "10",
-    "MSISDN"=> "254705912645",
-    "BillRefNumber"=> "Michael",
-  ]);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-$response     = curl_exec($ch);
-curl_close($ch);
-echo $response;
+    "amount"=> "527",
+    "MSISDN"=> "254708374149",
+    "BillRefNumber"=> "MichaelPatrick"
+);
+
+$data_string = json_encode ($curl_post_data);
+
+curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+curl_setopt($curl,CURLOPT_POST,true);
+curl_setopt($curl,CURLOPT_POSTFIELDS,$data_string);
+
+$curl_responce = curl_exec($curl);
+print_r($curl_responce);
+echo $curl_responce;
+?>

@@ -1,8 +1,8 @@
 <?php
-$consumerKey = 'x4lgMO695XnAGH9zclFxS6EDbMdSXr8G';
-$consumerSecret = 'JEXDLHu5pYeG3LxF';
+$consumerKey = 'bDzCXJ62A2eNS8fXu8qYfBxvQubC9OHM';
+$consumerSecret = 'ArAG8AiAlG7QvtNC';
 
-$headers = ['Content-Type:application/json;charset-utf8'];
+$headers = ['Content-Type:application/json;charset=utf-8'];
 $url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
 $curl = curl_init($url);

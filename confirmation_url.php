@@ -10,13 +10,11 @@
     $mpesaResponce = file_get_contents("php://input");
 
     //log the responce
-    $logfile= "M-PESAConfirmationResponce.txt";
+    $logfile= "M-PESAConfirmationResponceContent.txt";
     $jsonMpesaresponce = json_decode($mpesaResponce,TRUE);
 
-    echo $jsonMpesaresponce;
-
     //write to file
-    $log =  fopen($logfile,'a');
+    $log =  fopen($logfile,"a+");
     fwrite($log,$mpesaResponce);
     fclose($log);
 

@@ -9,11 +9,11 @@
     $mpesaResponce = file_get_contents("php://input");
 
     //log the responce
-    $logfile= "ValidationResponce.txt";
+    $logfile= "ValidationResponceContent.txt";
     $jsonMpesaresponce = json_decode($mpesaResponce,true);
 
     //write to file
-    $log =  fopen($logfile,'a');
+    $log =  fopen($logfile,"a+");
     fwrite($log,$mpesaResponce);
     fclose($log);
 
