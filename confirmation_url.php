@@ -13,6 +13,8 @@
     $logfile= "M-PESAConfirmationResponce.txt";
     $jsonMpesaresponce = json_decode($mpesaResponce,TRUE);
 
+    echo $jsonMpesaresponce;
+
     //write to file
     $log =  fopen($logfile,'a');
     fwrite($log,$mpesaResponce);
