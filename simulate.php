@@ -4,7 +4,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, [
     'Authorization: Bearer CEEqZpf2Qf4QamRieaIGv1BjI1eh',
     'Content-Type: application/json'
 ]);
-curl_setopt($ch, CURLOPT_POST, 1);
+
 
 
 $curl_post_data = array(
@@ -14,6 +14,7 @@ $curl_post_data = array(
     "MSISDN"=> "254705912645",
     "BillRefNumber"=> "wambua"
 );
+curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,$curl_post_data);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $response     = curl_exec($ch);
