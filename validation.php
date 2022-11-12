@@ -5,10 +5,12 @@
         "ResultDesc"  : "Confirmation received succesfully"
     }';
 
-    //DATA
+    //data
+    //It takes raw data from the request and converts it into a string
     $mpesaResponce = file_get_contents("php://input");
 
     //log the responce
+    // then the string above is converted  again into a php variable
     $logfile= "ValidationResponceContent.txt";
     $jsonMpesaresponce = json_decode($mpesaResponce,true);
 
