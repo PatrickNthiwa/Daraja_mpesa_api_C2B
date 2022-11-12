@@ -1,7 +1,7 @@
 <?php
     $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
     
-    $access_token = 'Ts5b6rsW4ijgQu6afkH1JrrI6A3z';   
+    $access_token = 'YeBEkAcW2bciAkS8LO5Xg6gQQOjD';   
     $ShortCode  = '600999'; 
     $amount     = '5000'; // amount the client/we are paying to the paybill
     $msisdn     = '254708374149'; // phone number paying 
