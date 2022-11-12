@@ -5,8 +5,7 @@
         "ResultDesc"  : "Confirmation received succesfully"
     }';
 
-    //data
-    //It takes raw data from the request and converts it into a string
+    //DATA
     $mpesaResponce = file_get_contents("php://input");
 
     //log the responce
@@ -15,7 +14,7 @@
     $jsonMpesaresponce = json_decode($mpesaResponce,true);
 
     //write to file
-    $log =  fopen($logfile,"a+");
+    $log =  fopen($logfile,'a');
     fwrite($log,$mpesaResponce);
     fclose($log);
 
