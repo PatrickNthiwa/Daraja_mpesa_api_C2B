@@ -6,7 +6,7 @@ $curl = curl_init();
 curl_setopt($curl,CURLOPT_URL,$url);
 
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
-    'Authorization: Bearer vfdRzEU1ufAEP7YgoS9nBGgDnSC6',
+    'Authorization: Bearer ed5IBMzAHzeKnGciC1ODQJnAFLU5',
     'Content-Type: application/json'
 ]);
 $curl_post_data = array(
