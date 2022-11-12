@@ -6,11 +6,11 @@ $curl = curl_init();
 curl_setopt($curl,CURLOPT_URL,$url);
 
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
-    'Authorization: Bearer ed5IBMzAHzeKnGciC1ODQJnAFLU5',
+    'Authorization: Bearer u6EBZ3AgM8GHoAyuoVoHVjKwUulA',
     'Content-Type: application/json'
 ]);
 $curl_post_data = array(
-    "ShortCode"=> "600998",
+    "ShortCode"=> "600247",
     "CommandID"=> "CustomerPayBillOnline",
     "Amount"=> "527",
     "Msisdn"=> "254708374149",

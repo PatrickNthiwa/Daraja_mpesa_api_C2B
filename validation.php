@@ -11,7 +11,8 @@
     $Mpesaresponce = json_decode($mpesaResponcejson,true);
 
     //write to file
-    $log =  fopen('ValidationResponce.txt','a');
+    $logfile="ValidationResponce.txt";
+    $log =  fopen($logfile,'a');
     fwrite($log,$mpesaResponcejson);
     fclose($log);
 
