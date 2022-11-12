@@ -1,8 +1,8 @@
 <?php
 $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
 
-$curl = curl_init();
 
+$curl = curl_init();
 curl_setopt($curl,CURLOPT_URL,$url);
 
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
@@ -25,5 +25,7 @@ curl_setopt($curl,CURLOPT_POSTFIELDS,$data_string);
 
 $curl_responce = curl_exec($curl);
 print_r($curl_responce);
+
+
 echo $curl_responce;
 ?>

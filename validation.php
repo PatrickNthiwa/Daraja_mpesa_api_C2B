@@ -6,16 +6,13 @@
     }';
 
     //DATA
-    $mpesaResponce = file_get_contents("php://input");
-
-    //log the responce
-    // then the string above is converted  again into a php variable
-    $logfile= "ValidationResponceContent.txt";
-    $jsonMpesaresponce = json_decode($mpesaResponce,true);
+    $mpesaResponcejson = file_get_contents('php://input');
+    //Put the resultng json in a php variable
+    $Mpesaresponce = json_decode($mpesaResponcejson,true);
 
     //write to file
-    $log =  fopen($logfile,'a');
-    fwrite($log,$mpesaResponce);
+    $log =  fopen('ValidationResponce.txt','a');
+    fwrite($log,$mpesaResponcejson);
     fclose($log);
 
 
