@@ -1,31 +1,31 @@
 <?php
-$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
+    $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
+    
+    $access_token = 'Ts5b6rsW4ijgQu6afkH1JrrI6A3z';   
+    $ShortCode  = '600999'; 
+    $amount     = '5000'; // amount the client/we are paying to the paybill
+    $msisdn     = '254708374149'; // phone number paying 
+    $billRef    = 'PatrickWambua'; // This is anything that helps identify the specific transaction. Can be a clients ID, Account Number, Invoice amount, cart no.. etc
+
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json','Authorization:Bearer '.$access_token));
 
 
-$curl = curl_init();
-curl_setopt($curl,CURLOPT_URL,$url);
+    $curl_post_data = array(
+           'ShortCode' => $ShortCode,
+           'CommandID' => 'CustomerPayBillOnline',
+           'Amount' => $amount,
+           'Msisdn' => $msisdn,
+           'BillRefNumber' => $billRef
+    );
 
-curl_setopt($curl, CURLOPT_HTTPHEADER, [
-    'Authorization: Bearer u6EBZ3AgM8GHoAyuoVoHVjKwUulA',
-    'Content-Type: application/json'
-]);
-$curl_post_data = array(
-    "ShortCode"=> "600247",
-    "CommandID"=> "CustomerPayBillOnline",
-    "Amount"=> "527",
-    "Msisdn"=> "254708374149",
-    "BillRefNumber"=> "MichaelPatrick"
-);
+    $data_string = json_encode($curl_post_data);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_POST, true);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
+    $curl_response = curl_exec($curl);
+    print_r($curl_response);
 
-$data_string = json_encode ($curl_post_data);
-
-curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
-curl_setopt($curl,CURLOPT_POST,true);
-curl_setopt($curl,CURLOPT_POSTFIELDS,$data_string);
-
-$curl_responce = curl_exec($curl);
-print_r($curl_responce);
-
-
-echo $curl_responce;
+    echo $curl_response;
 ?>

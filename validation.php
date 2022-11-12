@@ -1,21 +1,22 @@
 <?php
-    header('Content-type: application/json');
-    $responce =   '{
-        "ResultCode" : 0,
-        "ResultDesc"  : "Confirmation received succesfully"
-    }';
+    header("Content-Type: application/json");
 
-    //DATA
-    $mpesaResponcejson = file_get_contents('php://input');
-    //Put the resultng json in a php variable
-    $Mpesaresponce = json_decode($mpesaResponcejson,true);
+    $response = '{ "ResultCode": 0, "ResultDesc": "Confirmation Received Successfully" }';
 
-    //write to file
-    $logfile="ValidationResponce.txt";
-    $log =  fopen($logfile,'a');
-    fwrite($log,$mpesaResponcejson);
+    // Saving the M-PESA input stream. 
+    $mpesaResponse = file_get_contents('php://input');
+
+    // logging the response
+    $logFile = "validationResponse.txt";
+
+ 
+    $jsonMpesaResponse = json_decode($mpesaResponse, true); 
+
+    // writing the M-PESA Response to file
+    $log = fopen($logFile, "a");
+    fwrite($log, $mpesaResponse);
     fclose($log);
 
+    echo $response;
 
-    echo $responce;
- ?>
+?>
