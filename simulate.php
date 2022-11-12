@@ -12,8 +12,8 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, [
 $curl_post_data = array(
     "ShortCode"=> "600998",
     "CommandID"=> "CustomerPayBillOnline",
-    "amount"=> "527",
-    "MSISDN"=> "254708374149",
+    "Amount"=> "527",
+    "Msisdn"=> "254708374149",
     "BillRefNumber"=> "MichaelPatrick"
 );
 
