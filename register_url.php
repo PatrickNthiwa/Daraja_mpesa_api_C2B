@@ -2,7 +2,7 @@
 	$consumerKey = 'x4lgMO695XnAGH9zclFxS6EDbMdSXr8G'; 
 	$consumerSecret = 'JEXDLHu5pYeG3LxF'; 
 
-	$headers = ['Content-Type:application/json'];
+	$headers = ['Content-Type:application/json; charset=utf8'];
 
 	$url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
@@ -20,7 +20,7 @@
 	echo $access_token;
 
 	$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
-	$shortCode = '174379'; 
+	$shortCode = '600982'; 
 
 	/* This two files are provided in the project. */
 	$confirmationUrl = 'https://whispering-ridge-40373.herokuapp.com/confirmation_url.php'; 
