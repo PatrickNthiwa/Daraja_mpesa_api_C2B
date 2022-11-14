@@ -23,8 +23,8 @@
 	$shortCode = '174379'; 
 
 	/* This two files are provided in the project. */
-	$confirmationUrl = ''; // path to your confirmation url. can be IP address that is publicly accessible or a url
-	$validationUrl = ''; // path to your validation url. can be IP address that is publicly accessible or a url
+	$confirmationUrl = 'https://whispering-ridge-40373.herokuapp.com/confirmation_url.php'; 
+	$validationUrl = 'https://whispering-ridge-40373.herokuapp.com/validation.php'; 
 
 	$curl = curl_init();
 	curl_setopt($curl, CURLOPT_URL, $url);
