@@ -19,6 +19,8 @@
 
 	echo $access_token;
 
+	curl_close($curl);
+
 	$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
 	$shortCode = '600982'; 
 
