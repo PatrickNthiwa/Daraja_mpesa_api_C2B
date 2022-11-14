@@ -2,7 +2,7 @@
 	$consumerKey = 'x4lgMO695XnAGH9zclFxS6EDbMdSXr8G'; 
 	$consumerSecret = 'JEXDLHu5pYeG3LxF'; 
 
-	$headers = ['Content-Type:application/json; charset=utf8'];
+	$headers = ['Content-Type:application/json'];
 
 	$url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
