@@ -2,7 +2,7 @@
     $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
     
     $access_token = 'YeBEkAcW2bciAkS8LO5Xg6gQQOjD';   
-    $ShortCode  = '600999'; 
+    $ShortCode  = '174379'; 
     $amount     = '5000'; // amount the client/we are paying to the paybill
     $msisdn     = '254708374149'; // phone number paying 
     $billRef    = 'PatrickWambua'; // This is anything that helps identify the specific transaction. Can be a clients ID, Account Number, Invoice amount, cart no.. etc
