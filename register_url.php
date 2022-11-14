@@ -17,16 +17,18 @@
 
 	$access_token = $result->access_token;
 
-	$urlrg = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
+	echo $access_token;
+
+	$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
 	$shortCode = '174379'; 
-	$confirmationUrl = 'https://whispering-ridge-40373.herokuapp.com/confirmation_url.php'; 
-	$validationUrl = 'https://whispering-ridge-40373.herokuapp.com/validation.php'; 
 
+	/* This two files are provided in the project. */
+	$confirmationUrl = ''; // path to your confirmation url. can be IP address that is publicly accessible or a url
+	$validationUrl = ''; // path to your validation url. can be IP address that is publicly accessible or a url
 
-
-	$curl = curl_init($urlrg);
-	curl_setopt($curl, CURLOPT_URL, $urlrg);
-	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json','Authorization:Bearer '.$access_token)); 
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_URL, $url);
+	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json','Authorization:Bearer '.$access_token)); //setting custom header
 
 
 	$curl_post_data = array(

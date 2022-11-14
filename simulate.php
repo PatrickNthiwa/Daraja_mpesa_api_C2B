@@ -1,11 +1,11 @@
 <?php
     $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
     
-    $access_token = 'c2I5IGeAGGM8z7xkhXgBkty5ArHL';   
+    $access_token = '';  
     $ShortCode  = '174379'; 
-    $amount     = '5000'; // amount the client/we are paying to the paybill
-    $msisdn     = '254708374149'; // phone number paying 
-    $billRef    = 'PatrickWambua'; // This is anything that helps identify the specific transaction. Can be a clients ID, Account Number, Invoice amount, cart no.. etc
+    $amount     = '527'; 
+    $msisdn     = '254796440427';
+    $billRef    = 'Test';
 
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
