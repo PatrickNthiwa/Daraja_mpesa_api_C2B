@@ -1,15 +1,13 @@
 <?php
     header("Content-Type: application/json");
-
     $response = '{ "ResultCode": 0, "ResultDesc": "Confirmation Received Successfully" }';
 
-    // Save the M-PESA input stream. 
+    // Getting the raw data using input stream
     $mpesaResponse = file_get_contents('php://input');
+    //file_put_contents('ValidationResponse.txt',$mpesaResponse,FILE_APPEND);
 
     // log the response
     $logFile = "validationResponse.txt";
-
-    // will be used when we want to save the response to database for our reference
     $jsonMpesaResponse = json_decode($mpesaResponse, true); 
 
     // write the M-PESA Response to file
@@ -18,5 +16,3 @@
     fclose($log);
 
     echo $response;
-
-?>
