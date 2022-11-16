@@ -2,7 +2,7 @@
     $url = 'https://api.safaricom.co.ke/mpesa/c2b/v1/simulate';
     
     $access_token = 'jSXyIo6ydRd581YN2A4yHndzEFbe';  
-    $ShortCode  = '4092833'; 
+    $ShortCode  = '600977'; 
     $amount     = '527'; 
     $msisdn     = '254796440427';
     $billRef    = 'Test';
