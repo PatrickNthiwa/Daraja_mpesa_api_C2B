@@ -2,8 +2,8 @@
 
 
 
-	$consumerKey = 'ojKAdE26Ru63g13qKzWTtOpbXcFEdFh3'; 
-	$consumerSecret = '2O8k1AM3CcrkgvIq'; 
+	$consumerKey = ''; 
+	$consumerSecret = ''; 
 
 	$headers = ['Content-Type:application/json; charset=utf8'];
 

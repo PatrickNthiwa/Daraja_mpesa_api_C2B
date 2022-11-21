@@ -5,7 +5,7 @@
 
     $url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate';
     
-    $access_token = '56OBJmocd48p6VgUI3osza7eFAWk';     
+    $access_token = '';     
     $ShortCode  = '600978'; 
     $amount     = '500'; 
     $msisdn     = '254708374149'; 
