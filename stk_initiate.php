@@ -2,8 +2,8 @@
   date_default_timezone_set('Africa/Nairobi');
 
   # access token
-  $consumerKey = 'x4lgMO695XnAGH9zclFxS6EDbMdSXr8G'; 
-  $consumerSecret = 'JEXDLHu5pYeG3LxF'; 
+  $consumerKey = 'bDzCXJ62A2eNS8fXu8qYfBxvQubC9OHM'; 
+  $consumerSecret = 'ArAG8AiAlG7QvtNC'; 
 
   # define the variales
   $BusinessShortCode = '174379';
@@ -11,7 +11,7 @@
   $PartyA = '254796440427'; // This is my phone number, 
   $AccountReference = 'JugomaPrimeHouse';
   $TransactionDesc = 'Testing';
-  $Amount = '1';
+  $Amount = '2';
   $Timestamp = date('YmdHis');    
   $Password = base64_encode($BusinessShortCode.$Passkey.$Timestamp);
 
@@ -63,7 +63,7 @@
   curl_setopt($curl, CURLOPT_POST, true);
   curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
   $curl_response = curl_exec($curl);
-  print_r($curl_response);
+  //print_r($curl_response);
 
   echo $curl_response;
 ?>

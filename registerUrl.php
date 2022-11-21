@@ -1,11 +1,13 @@
 <?php
-//generating the access token before registering the urls
-	$consumerKey = 'x4lgMO695XnAGH9zclFxS6EDbMdSXr8G'; 
-	$consumerSecret = 'JEXDLHu5pYeG3LxF'; 
+
+
+
+	$consumerKey = 'ojKAdE26Ru63g13qKzWTtOpbXcFEdFh3'; 
+	$consumerSecret = '2O8k1AM3CcrkgvIq'; 
 
 	$headers = ['Content-Type:application/json; charset=utf8'];
-	$url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
+	$url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
 	$curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
@@ -19,17 +21,14 @@
 	$access_token = $result->access_token;
 
 	curl_close($curl);
-
 	echo $access_token;
-
-//here now we register the urls for validation and confirmation
+	
+	//registering the url's
 	$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
-
-	$shortCode = '600977'; 
+	$shortCode = '600982'; 
 
 	$confirmationUrl = 'https://theprimehouse.co.ke/darajaC2B/confirmationUrl.php'; 
-	$validationUrl = 'https://theprimehouse.co.ke/darajaC2B/validationUrl.php'; 
-
+	$validationUrl = 'https://theprimehouse.co.ke/darajaC2B/validationUrl.php';
 
 
 	$curl = curl_init();
@@ -38,7 +37,6 @@
 
 
 	$curl_post_data = array(
-	  //Fill in  with valid values
 	  'ShortCode' => $shortCode,
 	  'ResponseType' => 'Completed',
 	  'ConfirmationURL' => $confirmationUrl,
@@ -52,7 +50,7 @@
 	curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
 
 	$curl_response = curl_exec($curl);
-	print_r($curl_response);
+//	print_r($curl_response);
 
 	echo $curl_response;
 ?>

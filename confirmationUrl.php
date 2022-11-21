@@ -1,18 +1,33 @@
 <?php
-		header("Content-Type: application/json");
+    require '../wp-config.php';
+    $mpesaResponse = file_get_contents('php://input');
+    $callback_confirmation_message=array("ResCode"=>0, "ResDescription"=>"Mpesa data received successfully");
+    
+    print_r(json_encode($callback_confirmation_message)); 
+    
+    file_put_contents('M_PESAConfirmationResponse.txt',$mpesaResponse,FILE_APPEND);
+   $jsonMpesaResponse = json_decode($mpesaResponse, true); 
+    $transaction = array(
+            'TransactionType'      => $jsonMpesaResponse['TransactionType'],
+            'TransID'              => $jsonMpesaResponse['TransID'],
+            'TransTime'            => $jsonMpesaResponse['TransTime'],
+            'TransAmount'          => $jsonMpesaResponse['TransAmount'],
+            'BusinessShortCode'    => $jsonMpesaResponse['BusinessShortCode'],
+            'BillRefNumber'        => $jsonMpesaResponse['BillRefNumber'],
+            'InvoiceNumber'        => $jsonMpesaResponse['InvoiceNumber'],
+            'OrgAccountBalance'    => $jsonMpesaResponse['OrgAccountBalance'],
+            'ThirdPartyTransID'    => $jsonMpesaResponse['ThirdPartyTransID'],
+            'MSISDN'               => $jsonMpesaResponse['MSISDN'],
+            'FirstName'            => $jsonMpesaResponse['FirstName'],
+            'MiddleName'           => $jsonMpesaResponse['MiddleName'],
+            'LastName'             => $jsonMpesaResponse['LastName']
+    );
+    
+    // insert data to db.
 
-		$response = '{"ResultCode": 0,"ResultDesc": "Confirmation Received Successfully"}';
-
-		// DATA
-		$mpesaResponse = file_get_contents('php://input');
-		//file_put_contents('M_PESAConfirmationResponse.txt',$mpesaResponse,FILE_APPEND);
-
-		// log the response
-		$logFile = "M_PESAConfirmationResponse.txt";
-		$jsonMpesaResponse = json_decode($mpesaResponse, true); 
-
-		// write to file
-		$log = fopen($logFile, "a");
-		fwrite($log, $mpesaResponse);
-		fclose($log);
-		echo $response;
+    //  global $wpdb; 
+    //  $table_name = $wpdb->$table_prefix . 'mobile_payments';
+    //  $wpdb->insert_response($table_name,$transaction); 
+    insert_response($transaction);
+     
+?>

@@ -1,0 +1,413 @@
+[16-Nov-2022 11:27:09 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '.6' (T_DNUMBER), expecting ')' in /home/tezripol/public_html/darajaC2B/registerUrl.php on line 37
+[16-Nov-2022 16:32:48 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[16-Nov-2022 16:33:04 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[16-Nov-2022 16:34:31 Africa/Nairobi] PHP Warning:  Use of undefined constant YYMMDD - assumed 'YYMMDD' (this will throw an Error in a future version of PHP) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[16-Nov-2022 16:35:44 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 6
+[16-Nov-2022 16:36:18 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 6
+[16-Nov-2022 16:38:54 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 6
+[16-Nov-2022 16:40:45 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 6
+[18-Nov-2022 09:51:13 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 09:51:13 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 09:51:43 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 09:54:36 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 09:56:21 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 09:58:46 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 10:04:53 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 10:06:09 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 57
+[18-Nov-2022 10:17:11 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:17:44 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:18:03 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:18:43 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:19:01 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:19:31 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:24:01 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:24:07 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:24:41 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:25:18 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:26:24 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:27:12 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:28:35 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:31:00 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on null in /home/tezripol/public_html/darajaC2B/display.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 62
+[18-Nov-2022 10:36:04 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:36:09 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:36:50 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:36:58 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:40:10 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:41:09 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:43:53 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 60
+[18-Nov-2022 10:47:32 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 59
+[18-Nov-2022 10:48:23 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 59
+[18-Nov-2022 10:51:04 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 59
+[18-Nov-2022 10:51:12 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 59
+[18-Nov-2022 10:58:37 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 45
+[18-Nov-2022 10:59:23 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 45
+[18-Nov-2022 10:59:55 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 45
+[18-Nov-2022 11:03:22 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 35
+[18-Nov-2022 11:03:42 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 35
+[18-Nov-2022 11:11:47 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tezripol/public_html/darajaC2B/display.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/display.php on line 35
+[18-Nov-2022 11:12:13 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tezripol/public_html/darajaC2B/display.php on line 32
+[18-Nov-2022 11:12:39 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tezripol/public_html/darajaC2B/display.php on line 32
+[18-Nov-2022 16:58:40 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '':BillRefNumber'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 19
+[18-Nov-2022 16:58:45 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '':BillRefNumber'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 19
+[19-Nov-2022 09:38:37 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:63) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 6
+[19-Nov-2022 09:50:08 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:63) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[19-Nov-2022 09:52:38 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:38) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[19-Nov-2022 09:56:10 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:38) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[19-Nov-2022 10:02:54 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:38) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 5
+[19-Nov-2022 23:59:28 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:38) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[20-Nov-2022 00:00:37 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:38) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[20-Nov-2022 02:05:37 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/tezripol/public_html/darajaC2B/confirmationUrl.php:12
+Stack trace:
+#0 /home/tezripol/public_html/darajaC2B/confirmationUrl.php(12): implode(' - ', Array)
+#1 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 12
+[21-Nov-2022 07:08:09 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tezripol/public_html/darajaC2B/config.php:1) in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 4
+[21-Nov-2022 09:18:02 Africa/Nairobi] PHP Warning:  file_put_contents() expects parameter 3 to be int, string given in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 7
+[21-Nov-2022 09:30:59 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function jsonencode() in /home/tezripol/public_html/darajaC2B/confirmationUrl.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 7
+[21-Nov-2022 09:31:08 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function jsonencode() in /home/tezripol/public_html/darajaC2B/confirmationUrl.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 7
+[21-Nov-2022 10:11:19 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 30
+[21-Nov-2022 10:27:32 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:27:32 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:27:35 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:27:35 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:28:06 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:28:06 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:28:43 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 30
+[21-Nov-2022 10:29:14 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:29:14 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 3
+[21-Nov-2022 10:29:47 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:29:47 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:29:57 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:29:57 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:30:54 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:30:54 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:00 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:00 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:50 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:50 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:54 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:54 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:55 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:33:55 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:00 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:00 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:17 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:17 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:19 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:19 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:21 Africa/Nairobi] PHP Warning:  require_once(/wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 10:34:21 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required '/wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 28
+[21-Nov-2022 11:10:01 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:10:01 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:11:41 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:11:41 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:14:42 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:14:42 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:19:24 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:19:24 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:30:09 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:30:09 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:31:20 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:31:20 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:38:50 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 11:38:50 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:09:12 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:09:12 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:23:43 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:23:43 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:24:52 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:24:52 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:26:15 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:26:15 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:26:32 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:26:32 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:28:44 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:28:44 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:29:43 Africa/Nairobi] PHP Warning:  require_once(./wp-config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 12:29:43 Africa/Nairobi] PHP Fatal error:  require_once(): Failed opening required './wp-config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 27
+[21-Nov-2022 09:34:24 UTC] PHP Notice:  Undefined property: wpdb::$wp_ in /home/tezripol/public_html/wp-includes/class-wpdb.php on line 750
+[21-Nov-2022 09:34:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::insert_response() in /home/tezripol/public_html/darajaC2B/confirmationUrl.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 30
+[21-Nov-2022 12:49:54 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 12:49:58 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 12:50:21 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 12:50:26 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 12:52:42 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 12:52:48 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 12:53:58 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tezripol/public_html/darajaC2B/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 27
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(setting.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(setting.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(): Failed opening 'setting.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(session_check.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(session_check.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(): Failed opening 'session_check.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 94
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 95
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 138
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 138
+[21-Nov-2022 13:00:09 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 138
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(setting.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(setting.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(): Failed opening 'setting.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(session_check.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(session_check.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(): Failed opening 'session_check.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 94
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 95
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 138
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 138
+[21-Nov-2022 13:00:39 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 138
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(setting.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(setting.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(): Failed opening 'setting.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(session_check.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(session_check.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(): Failed opening 'session_check.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 5
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 36
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 41
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 85
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 86
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 115
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 115
+[21-Nov-2022 13:03:27 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 115
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(): Failed opening '../wp_config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 72
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 73
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:04:37 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(): Failed opening '../wp_config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 72
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 73
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:05:25 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(): Failed opening '../wp_config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 72
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 73
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:05:29 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 102
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(../wp_config.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(): Failed opening '../wp_config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 4
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(common/header.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 23
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(common/left.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/left.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 28
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tezripol/public_html/darajaC2B/index.php on line 72
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tezripol/public_html/darajaC2B/index.php on line 74
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 103
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(common/footer.php): failed to open stream: No such file or directory in /home/tezripol/public_html/darajaC2B/index.php on line 103
+[21-Nov-2022 13:06:11 Africa/Nairobi] PHP Warning:  include(): Failed opening 'common/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tezripol/public_html/darajaC2B/index.php on line 103
+[21-Nov-2022 13:38:24 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class 'TableRows' not found in /home/tezripol/public_html/darajaC2B/index.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/tezripol/public_html/darajaC2B/index.php on line 48
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 11
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 12
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 13
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 14
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 15
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 16
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 17
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 18
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 19
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 20
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 21
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 22
+[21-Nov-2022 12:42:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/tezripol/public_html/darajaC2B/confirmationUrl.php on line 23
